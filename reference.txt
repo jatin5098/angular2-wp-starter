@@ -1,0 +1,5 @@
+#angular @2 WP Starter
+
+- $ $(npm bin)/tsc
+- $ $(npm bin)/typings -v search core-js
+- $ $(npm bin)/typings install --global --save dt~core-js
