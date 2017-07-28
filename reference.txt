@@ -3,3 +3,12 @@
 - $ $(npm bin)/tsc
 - $ $(npm bin)/typings -v search core-js
 - $ $(npm bin)/typings install --global --save dt~core-js
+
+
+Webpack setup
+
+npm install webpack --save-dev
+npm install webpack --save-dev ts-loader
+
+refer
+https://angular.io/guide/webpack

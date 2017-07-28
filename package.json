@@ -2,7 +2,8 @@
     "name": "angular-2-wp-setup",
     "version": "0.1.0",
     "scripts": {
-        "build": "tsc",
+        "build": "webpack --progress",
+        "serve": "webpack-dev-server --inline --progress --port 7000",
         "postinstall": "typings install"
     },
     "dependencies": {
@@ -15,11 +16,17 @@
         "@angular/platform-browser-dynamic": "^2.4.0",
         "@angular/router": "^3.4.0",
         "core-js": "^2.4.1",
+        "reflect-metadata": "^0.1.10",
         "rxjs": "^5.1.0",
         "zone.js": "^0.7.6"
     },
     "devDependencies": {
+        "awesome-typescript-loader": "^3.2.2",
+        "html-webpack-plugin": "^2.29.0",
+        "ts-loader": "^2.3.2",
         "typescript": "^2.4.1",
-        "typings": "^2.1.1"
+        "typings": "^2.1.1",
+        "webpack": "^3.4.1",
+        "webpack-dev-server": "^2.6.1"
     }
 }
